@@ -30,3 +30,7 @@ grandfather_of(Person, G) :-
 sibling_of_ancestors_of(Person, AS) :-
  ancestor_of(Person, A),
  sibling_of(A, AS).
+
+
+decendant_of(Person, D) :-
+ ancestor_of(D, Person).
