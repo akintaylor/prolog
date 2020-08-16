@@ -17,6 +17,7 @@ parent_of(C, P) :- parents_of(C, _, P).
 ancestor_of(A, B) :- parent_of(A, B).
 ancestor_of(A, B) :- parent_of(A, X), ancestor_of(X, B).
 
+
 nephew_or_neice_of(Person, N) :- 
  sibling_of(Person, Sibling),
  parent_of(N, Sibling).
