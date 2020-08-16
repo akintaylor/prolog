@@ -6,7 +6,7 @@ parents_of(anne, philip, elizabeth-ii).
 parents_of(andrew, philip, elizabeth-ii).
 parents_of(edward, philip, elizabeth-ii).
 
-parents_of(willam, charles, diana).
+parents_of(william, charles, diana).
 parents_of(henry, charles, diana).
 
 parents_of(george, willam, catherine).
